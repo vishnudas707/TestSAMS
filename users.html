@@ -54,7 +54,7 @@
                     <li class="nav-item pcoded-menu-caption">
                         <label>Navigation</label>
                     </li>
-                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item active">
+                    <li data-username="dashboard Default Ecommerce CRM Analytics Crypto Project" class="nav-item">
                         <a href="dash.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-home"></i></span><span class="pcoded-mtext">Dashboard</span></a>
                     </li>
                     <!-- <li class="nav-item pcoded-menu-caption">
@@ -88,7 +88,8 @@
                     </li> -->
                     <li data-username="Charts Morris" class="nav-item"><a href="chart-morris.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Product</span></a></li>
                     <li data-username="Maps Google" class="nav-item"><a href="chart-morris.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Report</span></a></li>
-                    <li data-username="Maps Google" class="nav-item"><a href="users.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Users</span></a></li>
+                    <li data-username="Maps Google" class="nav-item active"><a href="users.html" class="nav-link"><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Users</span></a></li>
+
                     <!-- <li class="nav-item pcoded-menu-caption">
                         <label>Pages</label>
                     </li> -->
@@ -227,7 +228,7 @@
     <!-- [ Header ] end -->
 
     <!-- [ Main Content ] start -->
-    <div class="pcoded-main-container">
+    <section class="pcoded-main-container">
         <div class="pcoded-wrapper">
             <div class="pcoded-content">
                 <div class="pcoded-inner-content">
@@ -237,12 +238,12 @@
                             <div class="row align-items-center">
                                 <div class="col-md-12">
                                     <div class="page-header-title">
-                                        <h5 class="m-b-10">Badges</h5>
+                                        <h5 class="m-b-10">Bootstrap Basic Tables</h5>
                                     </div>
                                     <ul class="breadcrumb">
                                         <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:">Basic Componants</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:">Badges</a></li>
+                                        <li class="breadcrumb-item"><a href="#!">Tables</a></li>
+                                        <li class="breadcrumb-item"><a href="javascript:">Basic Tables</a></li>
                                     </ul>
                                 </div>
                             </div>
@@ -253,36 +254,140 @@
                         <div class="page-wrapper">
                             <!-- [ Main Content ] start -->
                             <div class="row">
-                                <!-- [ badge ] start -->
-                                <div class="col-sm-12">
+                                <!-- [ basic-table ] start -->
+                                <div class="col-xl-12">
                                     <div class="card">
                                         <div class="card-header">
-                                            <h5>Basic Badges</h5>
+                                            <h5>Basic Table</h5>
+                                            <span class="d-block m-t-5">use class <code>table</code> inside table element</span>
                                         </div>
-                                        <div class="card-body">
-                                            <h1>Example heading <span class="badge badge-secondary">New</span></h1>
-                                            <h2>Example heading <span class="badge badge-secondary">New</span></h2>
-                                            <h3>Example heading <span class="badge badge-secondary">New</span></h3>
-                                            <h4>Example heading <span class="badge badge-secondary">New</span></h4>
-                                            <h5>Example heading <span class="badge badge-secondary">New</span></h5>
-                                            <h6>Example heading <span class="badge badge-secondary">New</span></h6>
-                                        </div>
-                                    </div>
-                                    <div class="card">
-                                        <div class="card-header">
-                                            <h5>Button Badges</h5>
-                                        </div>
-                                        <div class="card-body">
-                                            <button type="button" class="btn btn-primary">primary <span class="badge badge-light">4</span></button>
-                                            <button type="button" class="btn btn-secondary">secondary <span class="badge badge-light">4</span></button>
-                                            <button type="button" class="btn btn-success">success <span class="badge badge-light">4</span></button>
-                                            <button type="button" class="btn btn-danger">danger <span class="badge badge-light">4</span></button>
-                                            <button type="button" class="btn btn-warning">warning <span class="badge badge-light">4</span></button>
-                                            <button type="button" class="btn btn-info">info <span class="badge badge-light">4</span></button>
+                                        <div class="card-block table-border-style">
+                                            <div class="table-responsive">
+                                                <table class="table">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                                <!-- [ badge ] end -->
+                                <!-- [ basic-table ] end -->
+
+                                <!-- [ Hover-table ] start -->
+                                <div class="col-xl-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Hover Table</h5>
+                                            <span class="d-block m-t-5">use class <code>table-hover</code> inside table element</span>
+                                        </div>
+                                        <div class="card-block table-border-style">
+                                            <div class="table-responsive">
+                                                <table class="table table-hover">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- [ Hover-table ] end -->
+
+                                <!-- [ stiped-table ] start -->
+                                <div class="col-xl-12">
+                                    <div class="card">
+                                        <div class="card-header">
+                                            <h5>Striped Table</h5>
+                                            <span class="d-block m-t-5">use class <code>table-striped</code> inside table element</span>
+                                        </div>
+                                        <div class="card-block table-border-style">
+                                            <div class="table-responsive">
+                                                <table class="table table-striped">
+                                                    <thead>
+                                                        <tr>
+                                                            <th>#</th>
+                                                            <th>First Name</th>
+                                                            <th>Last Name</th>
+                                                            <th>Username</th>
+                                                        </tr>
+                                                    </thead>
+                                                    <tbody>
+                                                        <tr>
+                                                            <th scope="row">1</th>
+                                                            <td>Mark</td>
+                                                            <td>Otto</td>
+                                                            <td>@mdo</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">2</th>
+                                                            <td>Jacob</td>
+                                                            <td>Thornton</td>
+                                                            <td>@fat</td>
+                                                        </tr>
+                                                        <tr>
+                                                            <th scope="row">3</th>
+                                                            <td>Larry</td>
+                                                            <td>the Bird</td>
+                                                            <td>@twitter</td>
+                                                        </tr>
+                                                    </tbody>
+                                                </table>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- [ stiped-table ] end -->
                             </div>
                             <!-- [ Main Content ] end -->
                         </div>
@@ -290,7 +395,7 @@
                 </div>
             </div>
         </div>
-    </div>
+    </section>
     <!-- [ Main Content ] end -->
 
     <!-- Warning Section Starts -->
@@ -344,7 +449,6 @@
 <script src="assets/js/vendor-all.min.js"></script>
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/pcoded.min.js"></script>
-
 
 </body>
 </html>
