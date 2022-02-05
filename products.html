@@ -86,9 +86,9 @@
                     <!-- <li class="nav-item pcoded-menu-caption">
                         <label>Chart & Maps</label>
                     </li> -->
-                    <li data-username="Charts Morris" class="nav-item"><a href="products.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Product</span></a></li>
+                    <li data-username="Charts Morris" class="nav-item active"><a href="products.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-pie-chart"></i></span><span class="pcoded-mtext">Product</span></a></li>
                     <li data-username="Maps Google" class="nav-item"><a href="chart-morris.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Report</span></a></li>
-                    <li data-username="Maps Google" class="nav-item active"><a href="users.html" class="nav-link"><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Users</span></a></li>
+                    <li data-username="Maps Google" class="nav-item"><a href="users.html" class="nav-link "><span class="pcoded-micon"><i class="feather icon-map"></i></span><span class="pcoded-mtext">Users</span></a></li>
 
                     <!-- <li class="nav-item pcoded-menu-caption">
                         <label>Pages</label>
@@ -228,7 +228,7 @@
     <!-- [ Header ] end -->
 
     <!-- [ Main Content ] start -->
-    <section class="pcoded-main-container">
+    <div class="pcoded-main-container">
         <div class="pcoded-wrapper">
             <div class="pcoded-content">
                 <div class="pcoded-inner-content">
@@ -238,13 +238,20 @@
                             <div class="row align-items-center">
                                 <div class="col-md-12">
                                     <div class="page-header-title">
-                                        <h5 class="m-b-10">Members</h5>
+                                        <h5 class="m-b-10">Assets</h5>
                                     </div>
-                                    <!-- <ul class="breadcrumb">
-                                        <li class="breadcrumb-item"><a href="index.html"><i class="feather icon-home"></i></a></li>
-                                        <li class="breadcrumb-item"><a href="#!">Tables</a></li>
-                                        <li class="breadcrumb-item"><a href="javascript:">Basic Tables</a></li>
-                                    </ul> -->
+                                    <div class=""> 
+                                        <div class="col-md-12 row">
+                                            <div class="col-md-10">
+                                                <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Search"> 
+                                            </div>
+                                            <div class="col-md-2">
+                                                <button class="btn btn-primary" data-toggle="modal" data-target="#assetModal">New Asset</button>
+                                            </div>
+                                        </div>
+                                                                                  
+                                        
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -254,90 +261,88 @@
                         <div class="page-wrapper">
                             <!-- [ Main Content ] start -->
                             <div class="row">
-                                <!-- [ basic-table ] start -->
-                                <div class="col-xl-12">
-                                    <div class="card">
-                                        <div class="card-header"> 
-                                            <div class="col-md-12 row">
-                                                <div class="col-md-10">
-                                                    <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Search"> 
+                                <div class="col-xl-12 row">
+                                    <div class="col-xl-3 col-md-6">
+
+                                        <div class="card card-event">
+                                            <div class="card-block">
+                                                <div class="row align-items-center justify-content-center">
+                                                    <div class="col">
+                                                        <h5 class="m-0">Product One</h5>
+                                                    </div>
+                                                    
                                                 </div>
-                                                <div class="col-md-2">
-                                                    <button class="btn btn-primary" data-toggle="modal" data-target="#userModal">New User</button>
-                                                </div>
+                                                <h2 class="mt-2 f-w-200">18<sub class="text-muted f-14">Number</sub></h2>
+                                                
+                                                <div><i class="fas fa-chair"></i></div>
                                             </div>
-                                                                                      
-                                            
                                         </div>
-                                        <div class="card-block table-border-style">
-                                            <div class="table-responsive">
-                                                <table class="table">
-                                                    <thead>
-                                                        <tr>
-                                                            <th>#</th>
-                                                            <th>First Name</th>
-                                                            <th>Last Name</th>
-                                                            <th>Address</th>
-                                                            <th>Phone Number</th>
-                                                        </tr>
-                                                    </thead>
-                                                    <tbody>
-                                                        <tr>
-                                                            <th scope="row">1</th>
-                                                            <td>Aneesh</td>
-                                                            <td>Kumar</td>
-                                                            <td>Talap, Kannur</td>
-                                                            <td>568876786786</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">2</th>
-                                                            <td>Jacob</td>
-                                                            <td>John</td>
-                                                            <td>Payyanur</td>
-                                                            <td>568876786786</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">3</th>
-                                                            <td>Murali</td>
-                                                            <td>V</td>
-                                                            <td>Kasaragod</td>
-                                                            <td>889966230</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">4</th>
-                                                            <td>Saji</td>
-                                                            <td>V S</td>
-                                                            <td>Kozhikode</td>
-                                                            <td>889966230</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">5</th>
-                                                            <td>Saji</td>
-                                                            <td>T</td>
-                                                            <td>Vadakara</td>
-                                                            <td>125486623</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">6</th>
-                                                            <td>Minnal</td>
-                                                            <td>Murali</td>
-                                                            <td>Desham</td>
-                                                            <td>566522145</td>
-                                                        </tr>
-                                                        <tr>
-                                                            <th scope="row">7</th>
-                                                            <td>Vineeth</td>
-                                                            <td>V</td>
-                                                            <td>Kannur</td>
-                                                            <td>998745263</td>
-                                                        </tr>
-                                                    </tbody>
-                                                </table>
+                                    </div>
+                                    <div class="col-xl-3 col-md-6">
+
+                                        <div class="card card-event">
+                                            <div class="card-block">
+                                                <div class="row align-items-center justify-content-center">
+                                                    <div class="col">
+                                                        <h5 class="m-0">Product  Two</h5>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <h2 class="mt-2 f-w-200">12<sub class="text-muted f-14">Number</sub></h2>
+                                                
+                                                <div><i class="fas fa-chair"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-md-6">
+
+                                        <div class="card card-event">
+                                            <div class="card-block">
+                                                <div class="row align-items-center justify-content-center">
+                                                    <div class="col">
+                                                        <h5 class="m-0">Product Three</h5>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <h2 class="mt-2 f-w-200">2<sub class="text-muted f-14">Number</sub></h2>
+                                                
+                                                <div><i class="fas fa-chair"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-md-6">
+
+                                        <div class="card card-event">
+                                            <div class="card-block">
+                                                <div class="row align-items-center justify-content-center">
+                                                    <div class="col">
+                                                        <h5 class="m-0">Product Four</h5>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <h2 class="mt-2 f-w-200">13<sub class="text-muted f-14">Number</sub></h2>
+                                                
+                                                <div><i class="fas fa-chair"></i></div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-xl-3 col-md-6">
+
+                                        <div class="card card-event">
+                                            <div class="card-block">
+                                                <div class="row align-items-center justify-content-center">
+                                                    <div class="col">
+                                                        <h5 class="m-0">Product Five</h5>
+                                                    </div>
+                                                    
+                                                </div>
+                                                <h2 class="mt-2 f-w-200">1<sub class="text-muted f-14">Number</sub></h2>
+                                                
+                                                <div><i class="fas fa-chair"></i></div>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
-                             
                             </div>
                             <!-- [ Main Content ] end -->
                         </div>
@@ -345,7 +350,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </div>
     <!-- [ Main Content ] end -->
 
     <!-- Warning Section Starts -->
@@ -394,11 +399,11 @@
         </div>
     <![endif]-->
     <!-- Warning Section Ends -->
-    <div class="modal" id="userModal" tabindex="-1" role="dialog">
+    <div class="modal" id="assetModal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
           <div class="modal-content">
             <div class="modal-header">
-              <h5 class="modal-title">Add new Member</h5>
+              <h5 class="modal-title">Add new Asset</h5>
               <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
@@ -406,20 +411,20 @@
             <div class="modal-body">
                 <form>
                     <div class="form-group">
-                        <label>First Name</label>
+                        <label>Name</label>
                         <input type="text" class="form-control" placeholder="First Name">
                     </div>
                     <div class="form-group">
-                        <label>Last Name</label>
+                        <label>Quanity</label>
                         <input type="text" class="form-control" placeholder="Last Name">
                     </div>
                     <div class="form-group">
-                        <label>Phone Number</label>
-                        <input type="text" class="form-control" placeholder="Phone Number">
-                    </div>
-                    <div class="form-group">
-                        <label for="exampleFormControlTextarea1">Address</label>
-                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        <label for="exampleFormControlSelect1">UOM</label>
+                        <select class="form-control" id="exampleFormControlSelect1">
+                            <option>Number</option>
+                            <option>Kilo Gram</option>
+                            <option>Litre</option>                           
+                        </select>
                     </div>
                 </form>
             </div>
@@ -434,6 +439,7 @@
 <script src="assets/js/vendor-all.min.js"></script>
 	<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
     <script src="assets/js/pcoded.min.js"></script>
+
 
 </body>
 </html>
